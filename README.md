@@ -1,32 +1,27 @@
-# agentic-rag-backend-n8n
-📌 Title
+# 🚀 Agentic RAG Backend using n8n
 
-Agentic RAG Backend using n8n + OpenAI
+A production-style Agentic Retrieval-Augmented Generation (RAG) backend built using **n8n + OpenAI**.
 
-📌 Features
+This system supports:
+- Stateful multi-session memory
+- Vector-based knowledge retrieval
+- Step-controlled agent reasoning loop
+- Webhook-based REST API endpoint
 
-Webhook API endpoint
+---
 
-Stateful session memory
+## 📌 Overview
 
-Retrieval-Augmented Generation
+This project implements an autonomous AI backend capable of:
 
-Step-controlled agent loop
+1. Accepting user queries via Webhook API
+2. Maintaining session-based conversational memory
+3. Retrieving relevant documents from a Vector Store
+4. Running an agent loop for controlled reasoning
+5. Returning structured JSON responses
 
-Vector search integration
+---
 
-📌 Architecture Diagram
+## 🏗 Architecture
 
-Explain flow:
-
-User → Webhook → Agent → Vector Store → Memory → Response
-
-📌 Tech Stack
-
-n8n
-
-OpenAI
-
-Vector DB
-
-REST API
+### 🔄 Flow Diagram
